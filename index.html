@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed's Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ========== القائمة العلوية ========== -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Mohamed</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== القسم الرئيسي ========== -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm Mohamed</h1>
+                <p>Front-End Web Developer</p>
+                <a href="#projects" class="btn-custom">View My Work</a>
+                <a href="#contact" class="btn-custom">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== قسم عني ========== -->
+    <section id="about" class="about-section section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="assets/images/Me.jpg" alt="Mohamed's Photo" class="about-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="about-text">
+                        <p>
+                            I'm a front-end web developer passionate about creating beautiful and functional websites. 
+                            I have experience with HTML, CSS, JavaScript, and Bootstrap.
+                        </p>
+                        <p>
+                            Currently studying at Faculty of Industrial and Energy Technology, 
+                            I'm always learning new technologies and improving my skills.
+                        </p>
+                        <p>
+                            I love turning ideas into reality through clean code and creative design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== قسم المهارات ========== -->
+    <section id="skills" class="skills-section section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <div class="skill-name">HTML5</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <div class="skill-name">CSS3</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <i class="fab fa-js-square skill-icon"></i>
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <div class="skill-box">
+                        <i class="fab fa-bootstrap skill-icon"></i>
+                        <div class="skill-name">Bootstrap</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== قسم المشاريع ========== -->
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="row justify-content-center">
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="project-card">
+                        <img src="assets/images/To-Do-Organizer.png" alt="To Do Organizer" class="project-img">
+                        <div class="project-info">
+                            <h3 class="project-title">To Do Organizer</h3>
+                            <p class="project-description">
+                                A task manager where you can add your daily tasks and stay organized.
+                            </p>
+                            <a href="https://mohamed12-gg.github.io/To-Do-Organizer/" target="_blank" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <div class="project-card">
+                        <iframe  width="110%" height="260" src="https://www.youtube.com/embed/zScpdvsi8-s" title="LMS" frameborder="0"  allowfullscreen></iframe>
+                            
+                        
+                        <div class="project-info">
+                            <h3 class="project-title">LMS Website</h3>
+                            <p class="project-description">
+                                A learning management system for students and teachers using Laravel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== قسم التواصل ========== -->
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form action="https://formsubmit.co/albna3272@gmail.com" enctype="multipart/form-data" target="_blank" method="POST" class="contact-form" id="contactForm">
+                <!-- Success Message -->
+                <div class="success-msg" id="successMsg">
+                    <i class="fas fa-check-circle"></i> Thank you! Your message has been sent.
+                </div>
+
+                <!-- FormSubmit Hidden Fields -->
+                <input type="hidden" name="_subject" value="New Contact Form Submission from Portfolio!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="text" name="_honey" style="display:none">
+
+                <!-- Name -->
+                <input 
+                    name="name"
+                    type="text" 
+                    class="form-control" 
+                    id="name" 
+                    placeholder="Your Name"
+                    required
+                >
+                <div class="error-msg" id="nameError">Please enter your name</div>
+
+                <!-- Email -->
+                <input 
+                    name="email"
+                    type="email" 
+                    class="form-control" 
+                    id="email" 
+                    placeholder="Your Email"
+                    required
+                >
+                <div class="error-msg" id="emailError">Please enter a valid email</div>
+
+                <!-- Message -->
+                <textarea 
+                    name="message"
+                    class="form-control" 
+                    id="message" 
+                    rows="5" 
+                    placeholder="Your Message"
+                    required
+                ></textarea>
+                <div class="error-msg" id="messageError">Please enter your message</div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:albna3272@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        <p>albna3272@gmail.com</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>01559500460</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Behera, Egypt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Footer ========== -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Mohamed12-Gg" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohamed-al-banna-16b736338" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="footer-text">&copy; 2025 Mohamed's Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle" aria-label="Toggle Dark Mode">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
